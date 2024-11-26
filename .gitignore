@@ -1,0 +1,10 @@
+users.db
+ModeleSalvate
+figs
+__pycache__/
+ml_tools/__pycache__/
+.venv/
+web
+models_optimised_gb
+venv
+Models

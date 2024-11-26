@@ -1,0 +1,42 @@
+{
+    "models": {
+        "K Nearest Neighbours": {
+            "no_hyper_params": {},
+            "with_hyper_params_optimisation": {
+                "n_neighbors": [3, 5, 11, 15], 
+                "weights": ["uniform", "distance"] 
+            },
+            "pareto_color_no_hyper_params": "green",
+            "pareto_color_with_hyper_params": "blue"
+        },
+        "gradient boosting": {
+            "no_hyper_params": {},
+            "with_hyper_params_optimisation": {
+                "n_estimators": [100, 300, 500],
+                "learning_rate": [0.01, 0.1],
+                "max_depth": [3, 5, 7, 9]
+            },
+            "pareto_color_no_hyper_params": "orange",
+            "pareto_color_with_hyper_params": "blue"
+        },
+        "svr": {
+            "no_hyper_params": {},
+            "with_hyper_params_optimisation": {
+                "C": [0.01, 0.1],
+                "epsilon": [0.001, 0.01]
+            },
+            "pareto_color_no_hyper_params": "purple",
+            "pareto_color_with_hyper_params": "blue"
+        },
+        "random forrest": {
+            "no_hyper_params": {},
+            "with_hyper_params_optimisation": {
+                "n_estimators": [100, 300],
+                "max_depth": [null, 10, 30]
+            },
+            "pareto_color_no_hyper_params": "purple",
+            "pareto_color_with_hyper_params": "blue"
+        }
+    }
+
+}

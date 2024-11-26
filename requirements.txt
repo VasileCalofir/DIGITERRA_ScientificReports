@@ -1,0 +1,12 @@
+# sudo python get-pip.py
+#pip install -r requirements.txt
+pandas
+umpy
+matplotlib
+scikit-learn
+openpyxl
+tensorflow
+SciencePlots
+streamlit
+flask
+SALib
