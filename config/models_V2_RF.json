@@ -1,0 +1,11 @@
+{
+    "models": {
+        "random forrest": {
+            "no_hyper_params": {},
+            "with_hyper_params_optimisation": {},
+            "pareto_color_no_hyper_params": "purple",
+            "pareto_color_with_hyper_params": "blue"
+        }
+    }
+
+}
