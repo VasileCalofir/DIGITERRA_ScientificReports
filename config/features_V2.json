@@ -1,10 +1,12 @@
 {
     "all_features": {
-        "set": ["Fund_Freq1", "Fund_Freq2", "PGA_of_the_recording_scale_1",
-                     "PGA_of_the_recording_scale_2", "b_Hieght", "dim_x",
-                     "dim_y",	"b_st", "h_st", "b_gr",
-                     "h_gr",	"E",	"MstY",	"MstX",	"Mgr",	"Lshape",
-                     "bay2",	"no_span_2", "no_bay_2", "no_story_2",	"T1",	"T2",	"T3"],
-        "pareto_marker": "o"}
-
+        "set": [
+            "Fund_Freq1", "Fund_Freq2", "PGA_of_the_recording_scale_1",
+            "PGA_of_the_recording_scale_2", "b_Hieght", "dim_x",
+            "dim_y", "b_st", "h_st", "b_gr",
+            "h_gr", "E", "MstY", "MstX", "Mgr", "Lshape",
+            "bay2", "no_span_2", "no_bay_2", "no_story_2", "T1", "T2", "T3"
+        ],
+        "pareto_marker": "o"
+    }
 }
