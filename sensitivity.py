@@ -66,6 +66,7 @@ with open(model_file_path, 'rb') as model_file:
 with open(scaler_file_path, 'rb') as scaler_file:
     scaler = pickle.load(scaler_file)
 
+
 # Scale the generated samples
 X_scaled = scaler.transform(param_values)
 
